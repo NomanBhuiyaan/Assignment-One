@@ -52,28 +52,28 @@ button a{
 
 /* Action Section Start */
 
-.Action-Section{
+.action-section{
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin: 115px auto;
 }
-.LeftSide{
+.leftside{
 
 }
 
-.Title{
+.title{
     font-size: 42px;
     font-weight: bold;
     color: rgba(37, 36, 50, 1);
     margin-bottom: 23px;
 }
 
-.Subtitle{
+.subtitle{
     color: rgba(37, 36, 50, 0.5);
     margin-bottom: 23px;
 }
 
-.Right-Side img{
+.right-side img{
     border-radius: 50px;
 }
