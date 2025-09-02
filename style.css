@@ -1,3 +1,6 @@
+*{
+    //background-color:#c20606;
+}
 main{
     max-width: 1140px;
     margin: 0 auto;
@@ -123,4 +126,155 @@ button a{
     font-size: 20px;
     color: rgba(0, 0, 0, 0.5);
     margin-top: 0px;
+}
+
+/* users-feedback-section */
+
+.users-feedback-section{
+    margin:135px 0px;
+    background: #FFFFFF;
+    padding: 30px;
+    border-radius: 10px;
+
+
+}
+
+.header-title{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.user-feedback{
+    display: flex;
+    justify-content: space-around;
+    gap:20px;
+}
+
+.feedback{
+    border: 1px solid #B3B3B3 ;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.reviewer-section{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.date{
+    margin-top: 0px ;
+}
+
+.name{
+    margin-bottom: 0px;
+}
+
+.reviewer-image-section img{
+    border-radius: 9999px;
+    
+}
+
+
+
+/* Ready to focus better section */
+
+.ready-to-focus-better-section{
+    display: block;
+    text-align: center;
+    padding: 150px 150px 70px 150px;
+    background-color: #FFFFFF;
+    
+}
+
+.ready-to-focus-better-section p{
+  color: rgba(0, 0, 0, 0.5);
+    
+}
+
+.ready-to-focus-better-section img{
+    border-radius: 50px;
+    width: 100%;
+    margin-top: 21px;
+}
+
+
+/* lets-get-in-touch-section */
+
+.lets-get-in-touch-section{
+    display: flex;
+    justify-content: space-around;
+    gap: 115px;
+    align-items: center;
+    margin: 70px auto;
+    
+}
+
+
+.lets-get-in-touch-section h2{
+ font-size: 90px;
+    
+}
+
+.lets-get-in-touch-section ,form{
+    width: 100%;
+}
+
+form input[type="text"], form input[type="email"] {
+    height: 40px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 95%;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
+
+form textarea{
+    border: none;
+    font-size: 20px;
+    background-color: white;
+    display: block;
+    border-radius: 5px;
+    padding:10px 20px ;
+    margin-bottom: 24px;
+    width: 95%;
+}
+
+form{
+    font-size: 20px;
+    row-gap: 50px;
+}
+
+
+footer{
+    display: block;
+    text-align: center;
+    width: 530px;
+    margin: 0 auto;
+}
+
+footer h2{
+    font-size: 100px;
+    margin-bottom: 8px;
+    color: #4E47FF;
+}
+
+footer p{
+    font-size: 20px;
+    text-align: center;
+}
+
+.menu ul{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu ul li {
+    text-decoration: none;
+    text
 }
