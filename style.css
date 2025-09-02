@@ -1,3 +1,9 @@
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
 header{
     background-image: url(/images/Hero-bg.png);
     height: 700px;
@@ -57,6 +63,7 @@ button a{
     justify-content: space-around;
     align-items: center;
     margin: 115px auto;
+    gap: 155px;
 }
 .leftside{
 
@@ -76,4 +83,44 @@ button a{
 
 .right-side img{
     border-radius: 50px;
+}
+
+/* Productive Users Section */
+
+
+.productive-users-section{
+    background-color:rgba(78, 71, 255, 0.1) ;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.productive-users-title{
+    font-size: 38px;
+    color: rgba(37, 36, 50, 1);
+    
+
+}
+
+.productive-users-section{
+    padding: 50px 142px;
+}
+
+.three-data-with-subtitle{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+
+}
+
+.data-title{
+    font-size: 80px;
+    color: rgba(78, 71, 255, 1);
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.data-subtitle{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 0px;
 }
