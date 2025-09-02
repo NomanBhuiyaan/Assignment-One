@@ -1,0 +1,50 @@
+header{
+    background-image: url(/images/Hero-bg.png);
+    height: 700px;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 150px;
+}
+nav h3{
+    font-size: 34px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+
+/* common style star */
+
+.common-button{
+    background-color: #4E47FF;
+    padding: 12px 36px;
+    border-radius: 5px;
+    border: none;
+
+}
+
+button a{
+    text-decoration: none;
+    color:#FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+/* common style end */
+
+/* Banner-Section */
+
+
+.Banner-Section{
+    text-align: center;
+    margin-top: 150px;
+}
+
+.Banner-Section h2{
+    font-size: 65px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
