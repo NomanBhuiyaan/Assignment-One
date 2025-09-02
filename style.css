@@ -48,3 +48,32 @@ button a{
     font-weight: bold;
     margin-bottom: 30px;
 }
+
+
+/* Action Section Start */
+
+.Action-Section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 115px auto;
+}
+.LeftSide{
+
+}
+
+.Title{
+    font-size: 42px;
+    font-weight: bold;
+    color: rgba(37, 36, 50, 1);
+    margin-bottom: 23px;
+}
+
+.Subtitle{
+    color: rgba(37, 36, 50, 0.5);
+    margin-bottom: 23px;
+}
+
+.Right-Side img{
+    border-radius: 50px;
+}
